@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':gson-2.8.2')
+    implementation project(':junit-4.12')
+    implementation project(':shared')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

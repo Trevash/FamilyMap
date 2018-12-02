@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.bignerdranch.android:expandablerecyclerview:1.0.3'
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
